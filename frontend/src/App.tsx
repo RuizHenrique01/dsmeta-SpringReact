@@ -1,4 +1,5 @@
-import React from "react";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from "./components/Hearder";
 import NotificationButton from "./components/NotificationButton";
 import SalesCard from "./components/SalesCard";
@@ -6,6 +7,7 @@ import SalesCard from "./components/SalesCard";
 function App() {
   return (
     <>
+      <ToastContainer />
       <Header />
       <main>
         <section id="sales">
